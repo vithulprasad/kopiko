@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 11, 11);
+}
+section .main{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image:url(https://kopiko.com.my/sites/default/files/images/coffee%20selection%20background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a{
+  
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 1.5rem;
+    
+}
+
+a:hover{
+    background-color: red;
+  
+}
+ul {
+    margin-right: 30px;
+  
+}
+
+header{
+  max-height: 76px;
+  
+}
+header img{
+    width:30%;
+    margin-left: 80px;
+}
+@media(max-width:1345px){
+    header img{
+    margin: 0;
+    margin-top: -10px;
+     height: 60px;
+    }
+}
+section div{
+    width: 100%;
+    padding-top: 76px;
+   
+
+}
+section img{
+    width: 100%;
+}
+section1 .main{
+    padding-top: 300px;
+    height: 400px;
+}
+section  h2{
+    margin: 0;
+    margin-top: 100px;
+    font-size: 50px;
+   
+}
+section1 .div1{
+   margin-left: 5%;
+   float: left;
+}
+section1 img{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+section1 .div2{
+    float: right;
+    padding-right: 15%;
+    
+
+}
+section1 .div3{
+    
+    float: left;
+    padding-left: 5%;
+
+}
+section1 .div4{
+    float: right;
+    padding-right: 15%;
+  
+
+}
+section5 .main{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 1070px;
+    padding-top: 10px;
+}
+section5 p{
+
+    margin-top: 30px;
+}
+@media(max-width:1464px){
+    
+    section1 .main{
+        padding-top: 300px;
+        height: 1400px;
+    }
+    section1 .div1{
+        margin-left: 5%;
+        float: left;
+        
+     }
+     section1 img{
+        margin-left: 5%;
+         padding-top: 5%;
+     }
+     section1 .div2{
+        margin-left: 5%;
+         padding-right: 15%;
+         float: left;
+     
+     }
+     section1 .div3{
+         
+         padding-left: 5%;
+         float: left;
+     
+     }
+     section1 .div4{
+        margin-left: 5%;
+       float: left;
+     
+     }
+}
+
+
+@media(max-width:1047px){
+    #navbarSupportedContent{
+       
+        width: 100%;
+    }
+    #hai{
+        width: 100%;
+        margin-top: -70px;
+        text-align: center;
+    }
+}
+

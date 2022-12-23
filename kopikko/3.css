@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+a{
+  
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 1.5rem;
+    
+}
+
+a:hover{
+    background-color: red;
+  
+}
+ul {
+    margin-right: 30px;
+  
+}
+
+header{
+  max-height: 76px;
+  
+}
+header img{
+    width:30%;
+    margin-left: 80px;
+}
+@media(max-width:1345px){
+    header img{
+    margin: 0;
+    margin-top: -10px;
+     height: 60px;
+    }
+}
+section div{
+    width: 100%;
+    padding-top: 76px;
+   
+
+}
+section img{
+    width: 100%;
+}
+section1 .main{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+section1 .div1{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding-top: 8%;
+
+}
+section1 img{
+ padding-right: 30px;
+float: right;
+}
+section1 .div2{
+    width: 60%;
+    height: 100%;
+    float: right;
+    padding-top: 5%;
+    padding-right: 13%;
+}
+section1 h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+section1 p{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+section5 .main{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+section1 .main{
+     width: 100%;
+     height: 500px;
+     background-image: url(https://kopiko.com.my/sites/default/files/images/kopiko-gallery-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+
+    }
+    h1{
+        size: 40px;
+        font-weight: 600;
+        color: white;
+        margin: 0;
+        padding-top: 200px;
+    }
+    img{
+        width: 100%;
+    }
+    
+@media(max-width:1047px){
+    #navbarSupportedContent{
+       
+        width: 100%;
+    }
+    #hai{
+        width: 100%;
+        margin-top: -70px;
+        text-align: center;
+    }
+}
